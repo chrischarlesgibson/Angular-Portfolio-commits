@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-// import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './footer/footer.component';
 
 import { ContactModalComponent } from './contact-modal/contact-modal.component';
 import { AboutComponent } from './about/about.component';
@@ -16,10 +16,13 @@ import { NavModule } from './nav/nav.module';
 import { AppRoutingModule } from './app-routing.module';
 import { LayoutComponent } from './layout/layout.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 @NgModule({
   declarations: [
     // The declarations array lists all of the components, directives, and pipes that belong to this module.
     AppComponent,
+    FooterComponent,
 
     ContactModalComponent,
     AboutComponent,
@@ -32,7 +35,13 @@ import { FlexLayoutModule } from '@angular/flex-layout';
   ],
   imports:
     // The imports array lists all of the modules that this module depends on.
-    [NavModule, MaterialModule, AppRoutingModule, FlexLayoutModule],
+    [
+      NavModule,
+      MaterialModule,
+      AppRoutingModule,
+      FlexLayoutModule,
+      FontAwesomeModule,
+    ],
   providers: [],
   // This specifies the root component that Angular should bootstrap when it starts the app
   bootstrap: [AppComponent],

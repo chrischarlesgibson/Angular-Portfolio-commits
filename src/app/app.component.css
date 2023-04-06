@@ -11,3 +11,15 @@ mat-sidenav {
 main {
   padding: 10px;
 }
+
+app-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background-color: #cccccc;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  height: 50px;
+}
