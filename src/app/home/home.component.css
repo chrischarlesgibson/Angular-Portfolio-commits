@@ -1,0 +1,36 @@
+.homeContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column !important;
+  justify-content: center;
+}
+
+.homeName,
+.homeJobHeader {
+  text-align: center;
+  color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media (min-width: 900px) {
+  .homeName,
+  .homeJobHeader {
+    font-size: 6 em !important;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .homeName,
+  .homeJobHeader {
+    font-size: 4em !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .homeName,
+  .homeJobHeader {
+    font-size: 2.5em !important;
+  }
+}

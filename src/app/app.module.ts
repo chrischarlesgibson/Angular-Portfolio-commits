@@ -7,7 +7,7 @@ import { ContactModalComponent } from './contact-modal/contact-modal.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
-import { ProjectCardComponent } from './project-card/project-card.component';
+
 import { ProjectsComponent } from './projects/projects.component';
 import { ResumeComponent } from './resume/resume.component';
 import { MaterialModule } from './utils/material.module';
@@ -28,7 +28,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AboutComponent,
     ContactComponent,
     HomeComponent,
-    ProjectCardComponent,
+
     ProjectsComponent,
     ResumeComponent,
     LayoutComponent,
