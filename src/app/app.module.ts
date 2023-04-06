@@ -1,13 +1,8 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FooterComponent } from './footer/footer.component';
-import { NavBurgerComponent } from './nav-burger/nav-burger.component';
-import { NavbarComponent } from './navbar/navbar.component';
+// import { FooterComponent } from './footer/footer.component';
+
 import { ContactModalComponent } from './contact-modal/contact-modal.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
@@ -15,13 +10,16 @@ import { HomeComponent } from './home/home.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ResumeComponent } from './resume/resume.component';
+import { MaterialModule } from './utils/material.module';
+//Utils
+import { NavModule } from './nav/nav.module';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
+    // The declarations array lists all of the components, directives, and pipes that belong to this module.
     AppComponent,
-    FooterComponent,
-    NavBurgerComponent,
-    NavbarComponent,
+
     ContactModalComponent,
     AboutComponent,
     ContactComponent,
@@ -30,8 +28,11 @@ import { ResumeComponent } from './resume/resume.component';
     ProjectsComponent,
     ResumeComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports:
+    // The imports array lists all of the modules that this module depends on.
+    [NavModule, MaterialModule, AppRoutingModule],
   providers: [],
+  // This specifies the root component that Angular should bootstrap when it starts the app
   bootstrap: [AppComponent],
 })
 export class AppModule {}
