@@ -20,7 +20,7 @@ export class ProjectsComponent {
       title: 'Purple Waive',
       description:
         "Purple wAIve uses DALLE2's artifical intellingence system to generate pictures based on user input.",
-      image: './assets/images/purpleWaive.png',
+      image: 'assets/images/purpleWaive.png',
       repo: 'https://github.com/chrischarlesgibson/purple_wAIve',
       appUrl: 'https://purple-waive.herokuapp.com/',
       tech: [
@@ -39,7 +39,7 @@ export class ProjectsComponent {
     {
       title: 'Love is blur',
       description: 'a dating app for people who value values.',
-      image: './assets/images/loveisblurPic.png',
+      image: 'assets/images/loveisblurPic.png',
       repo: 'https://github.com/DraconMarius/love-is-blurr',
       appUrl: 'https://github.com/DraconMarius/love-is-blurr',
       tech: [
@@ -56,7 +56,7 @@ export class ProjectsComponent {
       title: 'LivHealthy',
       description:
         'This is an app for guidance on living healthy(or, LivHealthy).',
-      image: './assets/images/LivHealthy.png',
+      image: 'assets/images/LivHealthy.png',
       repo: 'https://github.com/chrischarlesgibson/LivHealthy',
       appUrl: 'https://thedomconrad.github.io/LivHealthy/',
       tech: [
@@ -88,7 +88,7 @@ export class ProjectsComponent {
     {
       title: 'NoteMaker3000',
       description: 'NoteMaker3000 is the ultimate note-taking app.',
-      image: './assets/images/noteTaker3000.png',
+      image: 'assets/images/noteTaker3000.png',
       repo: 'https://github.com/chrischarlesgibson/The-NoteMaker-3000',
       appUrl: 'https://the-notemaker-3000.herokuapp.com/',
       tech: ['express', 'uuid', 'javascript', 'node'],
@@ -97,7 +97,7 @@ export class ProjectsComponent {
       title: 'blogspot',
       description:
         'Blogspot is a webpage built for tech people who want to read and write all things tech related.',
-      image: './assets/images/Blogspot.png',
+      image: 'assets/images/Blogspot.png',
       repo: 'https://github.com/chrischarlesgibson/blogspot',
       appUrl: 'https://warm-coast-31406.herokuapp.com/',
       tech: [
@@ -117,7 +117,7 @@ export class ProjectsComponent {
       title: 'WeatherCast',
       description:
         'WeatherCast is an application that presents a current day forecast as well as a five day future forecast for each city the user searchs for.',
-      image: './assets/images/weathercast.png',
+      image: 'assets/images/weathercast.png',
       repo: 'https://github.com/chrischarlesgibson/Weather-Dashboard',
       appUrl: 'https://chrischarlesgibson.github.io/Weather-Dashboard/',
       tech: [
@@ -133,7 +133,7 @@ export class ProjectsComponent {
       title: 'BusinessWeb',
       description:
         'BusinessWeb is a command line application that helps business owners create a database for thier business.',
-      image: './assets/images/BusinessWeb.png',
+      image: 'assets/images/BusinessWeb.png',
       repo: 'https://github.com/chrischarlesgibson/BusinessWeb',
       appUrl: 'https://youtu.be/Iqzj7Y3wqA4',
       tech: ['mySQL2', 'Inquirer', 'console.table', 'Javascript', 'node.js'],
@@ -142,7 +142,7 @@ export class ProjectsComponent {
       title: 'Teamified',
       description:
         'Teamified is a command line application that helps users create html pages for their team. The html it creates will contain contact info about your team members.',
-      image: './assets/images/teamified.png',
+      image: 'assets/images/teamified.png',
       repo: 'https://github.com/chrischarlesgibson/Teamified',
       appUrl: 'https://youtu.be/o1SpxDWF_50',
       tech: ['Jest', 'Inquirer', 'Javascript', 'HTML', 'CSS'],
@@ -151,7 +151,7 @@ export class ProjectsComponent {
       title: 'Social Media API',
       description:
         'The purpose of this project was to create the backend API of a future social media site. ',
-      image: './assets/images/socialMedia.png',
+      image: 'assets/images/socialMedia.png',
       repo: 'https://github.com/chrischarlesgibson/social-network-API',
       appUrl: 'https://youtu.be/_zijhVlMA2o',
       tech: [
