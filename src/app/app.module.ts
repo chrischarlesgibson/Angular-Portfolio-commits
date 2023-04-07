@@ -3,9 +3,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 
-import { ContactModalComponent } from './contact-modal/contact-modal.component';
 import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
+
 import { HomeComponent } from './home/home.component';
 
 import { ProjectsComponent } from './projects/projects.component';
@@ -24,9 +23,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AppComponent,
     FooterComponent,
 
-    ContactModalComponent,
     AboutComponent,
-    ContactComponent,
+
     HomeComponent,
 
     ProjectsComponent,
