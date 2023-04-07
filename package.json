@@ -1,6 +1,7 @@
 {
   "name": "ts-angular-portfolio",
   "version": "0.0.0",
+  "homepage": "https://chrischarlesgibson.github.io/TypeScript-Angular-Portfolio",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
