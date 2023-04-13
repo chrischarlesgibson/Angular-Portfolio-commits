@@ -4,11 +4,11 @@
 
 ## Description
 
-Welcome to my portfolio repository.... Click on the link below to check out my portfolio page on Github pages! It is built using Angular,TypeScript and Angular Material among others.
+Welcome to my portfolio repository.... Click on the link below to check out my portfolio page on Github pages! It is built using Angular,TypeScript and Angular Material among others. The purpose of this project to practive Typescript and Angular.
 
 [link to my porfolio on Github pages](https://chrischarlesgibson.github.io/TypeScript-Angular-Portfolio/)
 
-![pic of app in action](./src/images/pageScreenshot.png)
+![pic of app in action](./src/assets/images/screenshotWebsite.png)
 
 ## Table of Contents
 
