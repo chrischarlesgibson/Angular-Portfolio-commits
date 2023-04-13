@@ -4,7 +4,7 @@ const skills = [
   'JavaScript',
   'typeScript',
   'C#',
-  '.NET',
+  'Angular',
   'Visual Studio',
   'jQuery',
   'React',
