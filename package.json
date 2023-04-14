@@ -9,8 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "postinstall": "npm install @angular/cli"
+    "deploy": "gh-pages -d build"
   },
   "private": true,
   "dependencies": {
@@ -41,7 +40,6 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.2.4",
-    "@angular/cli": "^13.3.11",
     "@angular/compiler-cli": "^15.2.0",
     "@types/jasmine": "~4.3.0",
     "angular-cli-ghpages": "^1.0.5",
