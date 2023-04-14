@@ -5,13 +5,14 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",   // <-- add --prod flag
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "postinstall": "npm install @angular/cli"
   },
+  
   "private": true,
   "dependencies": {
     "@angular/animations": "^15.2.0",
