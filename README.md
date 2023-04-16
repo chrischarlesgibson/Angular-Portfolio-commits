@@ -4,7 +4,7 @@
 
 ## Description
 
-This repo is up only to show th ecommit history of my angular-portfolio repo.
+This repo is up only to show the commit history of my angular-portfolio repo.
 
 ## Table of Contents
 
