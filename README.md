@@ -6,16 +6,6 @@
 
 This repo is up only to show the commit history of my angular-portfolio repo.
 
-## Table of Contents
-
-- [Description](#Description)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Built-With](#Built-With)
-- [Author](#Author)
-- [Badges](#Badges)
-- [License](#License)
-
 ## Built With
 
 - ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
